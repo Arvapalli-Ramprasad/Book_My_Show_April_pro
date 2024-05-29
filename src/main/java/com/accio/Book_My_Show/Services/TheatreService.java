@@ -116,7 +116,7 @@ public class TheatreService {
         theatre.setTheatreSeatList(theatreSeatList);
         theatreRepository.save(theatre);
 
-        return "Theatre Seats Have Been Associated";
+        return "Theatre Seats Have Been Associated Successfully";
 
     }
 }

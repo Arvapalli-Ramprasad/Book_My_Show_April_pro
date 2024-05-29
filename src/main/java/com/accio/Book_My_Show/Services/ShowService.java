@@ -54,6 +54,11 @@ public class ShowService {
             showSeatList.add(showSeat);
         }
 
+
+        //Setting bidirectional mapping
+        show.setShowSeatList(showSeatList);
+
+
         showSeatRepository.saveAll(showSeatList);
 
         return "show has been added successfully with show id "+show.getShowId();
