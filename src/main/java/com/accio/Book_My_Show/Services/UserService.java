@@ -36,6 +36,4 @@ public class UserService {
         user = userRepository.save(user);
         return "The User has been saved successfully with userId "+user.getUserId();
     }
-
-
 }

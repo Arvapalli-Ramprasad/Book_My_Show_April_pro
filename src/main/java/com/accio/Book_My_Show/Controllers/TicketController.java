@@ -1,6 +1,5 @@
 package com.accio.Book_My_Show.Controllers;
 
-import com.accio.Book_My_Show.Models.Tickets;
 import com.accio.Book_My_Show.Requests.BookTicketRequest;
 import com.accio.Book_My_Show.Response.TicketResponse;
 import com.accio.Book_My_Show.Services.TicketService;

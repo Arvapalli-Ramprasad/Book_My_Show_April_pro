@@ -41,7 +41,6 @@ public class ShowService {
         List<TheatreSeat> theatreSeatList1 = theatre.getTheatreSeatList();
 
         //List to store theatre seats
-
         List<ShowSeat> showSeatList = new ArrayList<>();
 
         for(TheatreSeat theatreSeat:theatreSeatList1){

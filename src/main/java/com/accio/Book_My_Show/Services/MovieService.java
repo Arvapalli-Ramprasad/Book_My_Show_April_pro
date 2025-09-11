@@ -28,7 +28,6 @@ public class MovieService {
 
         movie.setLanguage(updateMovieRequest.getNewLanguage());
         movie.setRating(updateMovieRequest.getNewRating());
-
         movie = movieRepository.save(movie);
 
         return "Movie attributes Updated Successfully with movie name "+movie.getMovieName();
