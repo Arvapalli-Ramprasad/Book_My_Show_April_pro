@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class MovieController {
     @Autowired
     private MovieService movieService;
-    @PostMapping("add")
+    @PostMapping("/add")
     public ResponseEntity addMovie(@RequestBody AddMovieRequest addMovieRequest){
         String response = movieService.addMovie(addMovieRequest);
         return new ResponseEntity(response, HttpStatus.OK);
